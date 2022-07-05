@@ -1,15 +1,19 @@
-#include <stdio.h> 
-#include <stlib.h>
-
+#include "main.h"
 /**
- * main - Entry point
+ * main - a program that prints __putchar
  *
- *Return: Always 0 (Success)
+ * Return: returns 0 always
  */
-	
 int main(void)
-/*print _putchar in int main*/
 {
-	printf("_putchar\n");
+	_putchar(95);
+	_putchar(112);
+	_putchar(117);
+	_putchar(116);
+	_putchar(99);
+	_putchar(104);
+	_putchar(97);
+	_putchar(114);
+	_putchar('\n');
 	return (0);
 }
