@@ -1,17 +1,12 @@
 #include "main.h"
 
 /**
- * print_numbers - print num from 0 - 9
+ * main - check the code
  *
- * Return: void
+ * Return: 0
  */
-void print_numbers(void)
+int main(void)
 {
-	int a;
-
-	for (a = 48; a <= 57; a++)
-	{
-		_putchar(a);
-	}
-	_putchar(a);
+	print_numbers();
+	return (0);
 }
