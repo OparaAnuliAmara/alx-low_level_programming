@@ -5,7 +5,6 @@
  *
  * @str: string input
  */
-
 void _puts(char *str)
 {
 	int i;
