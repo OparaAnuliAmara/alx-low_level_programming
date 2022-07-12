@@ -12,7 +12,7 @@ char *t = s;
 
 if (s)
 {
-char *t = s;
+while (*t)
 ++t;
 while (s < t--)
 _putchar(*t);
