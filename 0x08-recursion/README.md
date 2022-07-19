@@ -1,0 +1,1 @@
+Recussion is a function calling on its self directly or indirectly.The process of recurssion means maintaining the stackframe.A base case stops a recurssion.Always figure out what your base case is and then work backwards from there.
