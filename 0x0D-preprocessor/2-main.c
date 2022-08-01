@@ -5,9 +5,9 @@
  *
  * Return: 0 after succesful run
  */
- int main()
+int main(void)
 {
-	printf("\nFILE :%s", __FILE__);
+printf("%s\n", __FILE__);
 
-	return (0);
+return (0);
 }
